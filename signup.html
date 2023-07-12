@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+        *{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .sin {
+            padding: 50px 0px 0px 23px;
+        }
+
+        .heading {
+            text-align: center;
+           
+        }
+     
+    header p{
+       text-align: end;
+       padding-right: 10px;
+       font-size: 18px;
+    }
+    .media-options{
+    width: 100%;
+
+    margin-top: 14px;
+}
+.media-options a .face{
+
+    width:300px;
+    border-radius: 26px;
+    background-color:#3665f3;
+    height: 45px;     
+    color: white; 
+    font-size: 16px;
+}
+.media-options a .goog{
+    width:300px;
+    border-radius: 26px;
+    height: 45px;     
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.media-options i{
+    padding-right:45px;
+  
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="second-nav sin">
+                <div class="img">
+                    <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/EBay_logo.png" alt=""></a>
+                </div>
+            </div>
+        </nav>
+        <p>Already a member? <a href="signin.html">Sign in</a></p>
+    </header>
+
+    <div class="heading">
+        <h1 style="margin: 50px 0px 10px; font-size: 39px;">Create an account</h1>
+        <div class="checks">   
+            <input type="radio" id="personal" checked>
+            <label for="personal" style="margin-right: 12px;">Personal account</label> 
+            <input type="radio" id="business">
+            <label for="business">Business account</label>
+        </div>
+    </div>
+    <div class="sigup-form">
+        <div class="forms-detail">
+            <div class="name">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+            </div>
+            <div class="email">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="password">
+                <input type="password" placeholder="Password">
+            </div>
+
+            <div class="paragraph">
+                <p>By Creating an account, you agree to our <a href="">User Agreement</a> and acknowledge reading our <a
+                        href="">User Privacy Notice </a> .</p>
+            </div>
+            <div class="create-btn">
+               <a href="index.html"><button>Create an account</button></a> 
+               <h3 class="OR" style="display: none;">or</h3>
+            </div>
+            
+        </div>
+        <div class="or">
+            <p style="padding: 15px 0px;">or</p>
+        </div>
+        <div class="f-g-a">
+            <div class="media-options">
+                <a href="#" class="fied facebook"><button class="face"><i class="fab fa-facebook-square"></i>Continue
+                        with
+                        Facebook</button></a>
+            </div>
+            <div class="media-options">
+                <a href="#" class="fied google"><button class="goog"><i class="fab fa-google"></i>Continue with
+                        Google</button></a>
+            </div>
+            <div class="media-options">
+                <a href="#" class="fied google"><button class="goog"><i class="fab fa-apple"></i>Contine with
+                        Apple</button></a>
+            </div>
+
+        </div>
+    </div>
+        <hr>
+        <div class="links" style="padding-top: 30px; display: flex; justify-content: center;">
+            <ul>
+                <li>Copyright © 1995-2023 eBay Inc. All Rights Reserved.</li>
+                <li><a href=""> Accessibility,</a></li>
+                <li><a href=""> User Agreement</a></li>
+                <li> <a href=""> Privacy</a></li>
+                <li><a href=""> Payments Terms of Use</a></li>
+                <li><a href=""> Cookies</a></li>
+                <li><a href=""> Your Privacy Choices</a></li>
+                <li>and</li>
+                <li><a href="">AdChoice</a></li>
+                <li></li>
+            </ul>
+        </div>
+</body>
+
+</html>

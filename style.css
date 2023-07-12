@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    height: 40px;
+}
+.first-nav-start{
+    display: flex;
+    margin-left: 40px;
+    
+
+}
+.first-nav-start ,p,a{
+    padding: 2px;
+    
+}
+.daily{
+   display: flex;
+}
+.daily a{
+    color: black;
+    padding: 3px 13px;
+    text-decoration: none;
+}
+.first-nav-end{
+    padding-right: 30px;
+}
+.first-nav-end ul{
+    display: flex;
+    list-style: none;
+}
+.first-nav-end ul li{
+    padding: 10px;
+   
+}
+.first-nav-end ul li a{
+    color: #000;
+    text-decoration: none;
+}
+.first-nav-end ul li i{
+    font-size: 20px;
+}
+hr{
+    border: 1px solid rgb(236, 234, 234);
+    margin: 0%;
+}
+.second-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: 60px;
+}
+select {
+    border: none;
+    outline: none;
+}
+
+.input{
+    display: flex;
+    width: 671px;
+    height: 40px;
+    
+}
+.input input{
+    padding-left: 5px;
+    width: 100%;
+}
+.input select{
+    width: 40%;
+    border: 1px solid gray;
+    border-left: none;
+    padding: 10px;
+}
+.second-nav button{
+    margin-left:10px ;
+    width: 10%;
+    height: 40px;
+     color: white;
+     background-color: rgb(62, 62, 242);
+}
+.second-nav #shopBtn{
+   background-color:white;
+   color: black;
+   border: none;
+}
+
+.last-nav{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 35px;
+}
+
+.last-nav ul{
+    display: flex;
+    list-style: none;
+}
+.last-nav ul li{
+    padding: 10px;
+}
+.last-nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+  .carousel-item img{
+    width: 100%;
+    height: 400px;
+  }
+  .carousel-control-next-icon {
+    background-color: #272525;
+    border-radius: 50%;
+    padding: 15px;
+}
+.carousel-control-prev-icon{
+    background-color: #272525;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+
+.second-slide{
+    display: flex;
+}
+.second-slide a{
+    font-size: 1.85rem;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+/* .second-slide-img{
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+    width: 80%;
+    margin-bottom: 10px;
+} */
+
+.second-slide-img img{
+    height:160px;
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+#down{
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end;
+    margin: 3px 9px 20px 3px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+footer ul li {
+    padding: 6px 0px;
+}
+.footers h3{
+    font-size: 1.59rem;
+    font-weight:bold;
+}
+.links{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.links ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.links li{
+    font-size: 11px;
+}
+.links  a{
+    text-decoration: underline;
+    color: black;
+
+}
+@media (max-width:850px){
+    .last-nav,.displays,.daily,#cars{
+    display: none;
+    }
+    #shops{
+        font-size: 10px;
+    }
+
+}
+
+
+.border{
+    border: 2px solid rgb(242, 244, 242);;
+    padding-right: 0%;
+}
+
+/* BOOTSTRAP */
+.carousel .item {
+	min-height: 330px;
+    text-align: center;
+	overflow: hidden;
+}
+.carousel .item .img-box {
+	height: 160px;
+	width: 100%;
+	position: relative;
+}
+.carousel .item img {	
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.carousel .item h4 {
+	font-size: 18px;
+	margin: 10px 0;
+}
+.carousel .item .btn {
+	color: #333;
+    border-radius: 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+}
+.carousel .item .btn i {
+	font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.carousel .thumb-wrapper {
+	text-align: center;
+}
+.carousel .thumb-content {
+	padding: 15px;
+}
+.carousel .carousel-control {
+	height: 100px;
+    width: 40px;
+    background: none;
+    margin: auto 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+.carousel .carousel-control i {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -16px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: none;
+    font-weight: bold;
+}
+.carousel .item-price {
+	font-size: 13px;
+	padding: 2px 0;
+}
+.carousel .item-price strike {
+	color: #999;
+	margin-right: 5px;
+}
+.carousel .item-price span {
+	color: #86bd57;
+	font-size: 110%;
+}
+.carousel .carousel-control.left i {
+	margin-left: -3px;
+}
+.carousel .carousel-control.left i {
+	margin-right: -3px;
+}
+.carousel .carousel-indicators {
+	bottom: -50px;
+}
+.row{
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+
+/* Sign up */
+.sigup-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0px 0px 0px;
+}
+.forms-detail{
+    width: 320px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: w;
+}
+.or{
+    width: 175px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-g-a{
+    width: 300px;
+    height: 195;
+}
+.name,.email,.password{
+    height: 64px;   
+    display: flex;
+}
+.name input{
+    width:140px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 17px;
+    background-color: #f7f7f7;
+
+}
+.email input{
+    background-color: #f7f7f7;
+    width:300px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+.password input{
+    width:300px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #f7f7f7;
+
+}
+.create-btn button{
+    width:300px;
+    border-radius: 25px;
+    background-color:#c7c7c7;
+    height: 40px;     
+    color: white; 
+    font-size: 16px;
+    margin: 13px 0px;
+}
+.paragraph{
+    font-size: 14px;
+    padding: 8px 0px;
+}
+.checks input{
+    margin-right: 12px;
+}
+.checks{
+    margin: 8px 0px 12px 6px;
+}
+.checks label{
+    font-size: 19px;
+}
+@media (max-width:800px){
+    .or{
+        display: none;
+    }
+}
+@media (max-width:620px){
+    footer{
+        display: none;
+    }
+}
+
